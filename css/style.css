@@ -3,3 +3,56 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+nav {
+  padding: 25px 85px;
+  height: 90px;
+}
+.list-style {
+  list-style: none;
+  line-height: 90px;
+}
+
+.list-style li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+.list-style li:hover a {
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: #b9b6b6;
+}
+.nav_left .list-style li:nth-child(2n) a {
+  color: #222222;
+  font-weight: bold;
+}
+.nav_left img {
+  width: 120px;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.app_download_btn {
+  border-radius: 50px;
+  padding: 10px 25px;
+  background-color: #f53eac;
+  border: 1px solid #f53eac;
+  color: #ffffff;
+}
+.app_download_btn:hover {
+  background-color: #a73078;
+  border: 1px solid #a73078;
+  cursor: pointer;
+}
