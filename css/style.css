@@ -67,6 +67,7 @@ a {
   display: block;
 }
 .tipi_di_conti {
+  display: none;
   position: absolute;
   top: 70px;
   right: 0;
