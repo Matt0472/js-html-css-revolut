@@ -66,8 +66,11 @@ a {
 .dropdown_list li {
   display: block;
 }
-.dropdown_list li a{
-color: #b9b6b6;
+.dropdown .dropdown_list li a {
+  color: #b9b6b6;
+}
+.dropdown .dropdown_list li:hover a {
+  color: #222222;
 }
 .dropdown {
   display: none;
