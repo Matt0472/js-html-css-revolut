@@ -12,6 +12,9 @@ nav {
   padding: 25px 85px;
   height: 90px;
 }
+.pos_relative {
+  position: relative;
+}
 .list-style {
   list-style: none;
   line-height: 90px;
@@ -22,9 +25,9 @@ nav {
   padding: 0 10px;
   font-size: 1.2em;
 }
-.list-style li:hover a {
+/* .list-style li:hover a {
   color: #222222;
-}
+} */
 
 a {
   text-decoration: none;
@@ -55,4 +58,19 @@ a {
   background-color: #a73078;
   border: 1px solid #a73078;
   cursor: pointer;
+}
+.conti_list {
+  list-style: none;
+  line-height: 70px;
+}
+.conti_list li {
+  display: block;
+}
+.tipi_di_conti {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  padding: 20px;
+  filter: drop-shadow(2px 2px 2px rgba(199, 199, 199, 0.81));
+  background-color: #ffffff;
 }
